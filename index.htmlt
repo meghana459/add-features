@@ -1,0 +1,99 @@
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .slideshow-container {
+      position: relative;
+      max-width: 1000px;
+      margin: auto;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .slides {
+      display: flex;
+      width: 300%;
+      animation: slide 12s infinite;
+    }
+    .slides img {
+      width: 100%;
+      height: auto;
+    }
+    @keyframes slide {
+      0%   { transform: translateX(0); }
+      33%  { transform: translateX(-100%); }
+      66%  { transform: translateX(-200%); }
+      100% { transform: translateX(0); }
+    }
+
+    footer {
+      background: #f8c291;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+
+    @media (max-width: 768px) {
+        gap: 1rem;
+      }
+      nav {
+      }
+</head>
+<body>
+    Sweet Treats Bakery
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <main>
+    <section id="home">
+      <p>Freshly baked bread, pastries, and cakes every day.</p>
+
+    <section id="featured">
+      <div class="slideshow-container">
+        <div class="slides">
+          <img src="https://picsum.photos/1000/400?random=1" alt="Chocolate Cake">
+          <img src="https://picsum.photos/1000/400?random=3" alt="Cupcakes">
+      </div>
+    </section>
+
+    <section id="about">
+      <p>We are a family-owned bakery serving the community with love and care.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sweet Treats Bakery | Designed with ❤️</p>
+  </footer>
+</body>
+</html>
+      <h2>About Us</h2>
+        </div>
+          <img src="https://picsum.photos/1000/400?random=2" alt="Croissants">
+      <h2>Featured Products</h2>
+    </section>
+      <h2>Welcome to Sweet Treats!</h2>
+
+    <a href="#menu">Menu</a>
+    <a href="#home">Home</a>
+  </header>
+  <header>
+  </style>
+    }
+        padding: 1rem;
+      section {
+      }
+        font-size: 0.9rem;
+    @media (max-width: 480px) {
+
+      }
+    }
+        object-fit: cover;
+        height: 250px;
+      .slides img {
+        font-size: 1.2rem;
+      }
+      header {
+        flex-direction: column;
+      nav {
